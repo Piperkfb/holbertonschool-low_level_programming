@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - Is c lowercase
+ * _islower - Is clowercase?
  * @c: The letter that is checked
  *
- * Return 1 for lower, 0 for ect.
+ * Return: 1 for lower, 0 for ect.
  */
 
 int _islower(int c)
