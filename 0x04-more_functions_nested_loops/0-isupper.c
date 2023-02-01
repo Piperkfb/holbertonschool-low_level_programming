@@ -2,16 +2,17 @@
 
 /**
  * _isupper - Checks variable c if it is upper case
- * @c the char that is checked
+ * @c: the char that is checked
  *
  * Return: 1 if upper, 0 if other
  */
 
 int _isupper(int c)
 {
-	while (c <= 90; c >= 65;)
+	if (c <= 65 && c >= 90)
 	{
 		return (1);
 	}
-	return (0)
+	
+	return (0);
 }
