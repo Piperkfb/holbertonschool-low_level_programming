@@ -1,25 +1,34 @@
 #include "main.h"
 
 /**
- *print_diagonal - prints n ammount of diagnoal lines
- *@n: The number of lines
+ * print_diagonal - prints n ammount of diagnoal lines
+ * @n: The number of lines
  *
- *Return: void
+ * Return: void
  */
 
 void print_diagonal(int n)
 {
 	int x;
-	int cnt;
+	int y;
 
-	while (x <= n)
+	x = 1;
+
+	if (n > 0)
 	{
-		for (cnt = 1; cnt < x; cnt++)
+		while (x <= n)
 		{
-			_putchar(' ');
-		}
+			for (y = 1; y < x; y++)
+			{
+				_putchar(' ');
+			}	
 		_putchar(92);
 		_putchar('\n');
 		(x++);
+		}
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
