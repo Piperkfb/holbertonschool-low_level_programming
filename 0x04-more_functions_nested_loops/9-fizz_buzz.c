@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void main(void)
+int main(void)
 {
 	int x;
 	x = 1;
@@ -40,4 +40,5 @@ void main(void)
 		}
 		printf(" ");
 	}
+	return (0);
 }
