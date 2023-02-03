@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void fizzbuzzer(void)
+void main(void)
 {
 	int x;
 	x = 1;
