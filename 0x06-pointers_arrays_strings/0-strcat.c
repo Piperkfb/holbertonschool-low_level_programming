@@ -10,7 +10,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char ptr;
+	char ptr[98];
 	int s3l = 0;
 	int sc = 0;
 
@@ -32,7 +32,6 @@ char *_strcat(char *dest, char *src)
 	}
 	ptr[s3l] = '\0';
 	/* Destination overwritten to Return */
-	*dest = ptr;
 
-	return (ptr);
+	return (*ptr);
 }
