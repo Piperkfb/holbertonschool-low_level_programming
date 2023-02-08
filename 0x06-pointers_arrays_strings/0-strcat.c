@@ -10,28 +10,24 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char r[98];
-	int s3l = 0;
+	int sc2 = 0;
 	int sc = 0;
 
-	/* Destination added to Return */
+	/* Destination moved to the end */
 	while (dest[sc] != '\0')
 	{
-		r[s3l] = dest[sc];
-		s3l++;
 		sc++;
 	}
 	sc = 0;
 
-	/* Source added to Return */
-	while (src[sc] != '\0')
+	/* Source added to Destinarion */
+	while (src[sc2] != '\0')
 	{
-		r[s3l] = src[sc];
-		s3l++;
+		dest[sc] = src[sc2];
+		sc2++
 		sc++;
 	}
-	r[s3l] = '\0';
-	/* Destination overwritten to Return */
-	*ptr = r;
-	return (*ptr);
+	dest[sc] = '\0';
+
+	return (dest);
 }
