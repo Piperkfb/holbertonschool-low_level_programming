@@ -11,9 +11,19 @@ int _strcmp(char *s1, char *s2)
 {
 	while (s1 != '\0' && s2 != '\0')
 	{
-		if (s1[1..10] == s2[1..10])
+		if (s1[n] == s2[n])
 		{
-			return (0);
+			n++;
 		}
+		if (s1[n] < s2[n])
+		{
+			return (-15);
+		}
+		if (s1[n] > s2[n])
+		{
+			return (15);
+		}
+			
 	}
+	return (0);
 }
