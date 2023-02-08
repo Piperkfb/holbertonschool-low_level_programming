@@ -18,7 +18,6 @@ char *_strcat(char *dest, char *src)
 	{
 		sc++;
 	}
-	sc = 0;
 
 	/* Source added to Destinarion */
 	while (src[sc2] != '\0')
