@@ -24,11 +24,11 @@ int _strcmp(char *s1, char *s2)
 		a = s1[n];
 		b = s2[n];
 
-			if (a < b)
+			if (a > b)
 			{
 				return (-15);
 			}
-			if (a > b)
+			if (a < b)
 			{
 				return (15);
 			}
