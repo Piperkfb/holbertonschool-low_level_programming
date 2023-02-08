@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	/* Destination moved to the end */
 	while (dest[sc] != '\0')
 	{
-		sc++;			
+		sc++;
 	}
 
 	/* n letters of Source added to Destination */
