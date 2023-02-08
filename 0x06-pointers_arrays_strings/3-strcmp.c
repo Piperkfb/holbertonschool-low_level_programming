@@ -23,7 +23,7 @@ int _strcmp(char *s1, char *s2)
 		{
 		a = s1[n];
 		b = s2[n];
-		
+
 			if (a < b)
 			{
 				return (-15);
@@ -34,5 +34,5 @@ int _strcmp(char *s1, char *s2)
 			}
 		}
 	}
- 	return (0);
+	return (0);
 }
