@@ -2,8 +2,8 @@
 
 /**
  * _strcat - appends src string to dest string
- * @dest: 
- * @src:
+ * @dest: Destination
+ * @src: Source
  *
  * Return: pointer to dest
  */
@@ -22,7 +22,7 @@ char *_strcat(char *dest, char *src)
 		sc++;
 	}
 	sc = 0;
-	
+
 	/* Source added to Return */
 	while (*src[sc] != '\0')
 	{
