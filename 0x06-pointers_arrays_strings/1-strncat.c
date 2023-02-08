@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	/* n letters of Source added to Destination */
-	while (src[sc2] != n)
+	while (src[sc2] != src[n])
 	{
 		dest[sc] = src[sc2];
 		sc++;
