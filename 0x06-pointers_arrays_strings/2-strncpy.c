@@ -17,9 +17,18 @@ char *_strncpy(char *dest, char *src, int n)
 	/* n number of source relacing destination */
 	while (src[sc2] != src[n])
 	{
-		dest[sc] = src[sc2];
-		sc++;
-		sc2++;
+		if (src[sc2] != '\0')
+		{
+			dest[sc] = src[sc2];
+			sc++;
+			sc2++;
+		}
+		else
+		{
+			dest[sc] = '\0';
+			sc++;
+			sc2++;
+		}
 	}
 	return (dest);
 }
