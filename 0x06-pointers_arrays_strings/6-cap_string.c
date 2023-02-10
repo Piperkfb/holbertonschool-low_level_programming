@@ -9,10 +9,14 @@
 
 char *cap_string(char *str)
 {
-	char space[] = {' ', '	', '\n', ',', ';', '.', '!', '?', '"', ')', '(', '{', '}', '\0'};
 	int sc = 1;
 	int sps = 0;
-	
+	char space[9]{' ', '	', '\n', ',', ';', '.', '!', '?', '"', ')'};
+	char space[10] = '(';
+	char space[11] = '{';
+	char space[12] = '}';
+	char space[13] = '\0';
+
 	if (str[0] >= 'a' && str[0] <= 'z')
 	{
 		str[0] = str[0] - 32;
