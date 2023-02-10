@@ -7,16 +7,17 @@
  * Return: The uppercase version
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *src)
 {
 	int sc = 0;
 
-	while (*[sc] != '\0')
+	while (src[sc] != '\0')
 	{
-		if (*[sc] >= 'a' && *[sc] <= 'z')
+		if (src[sc] >= 'a' && src[sc] <= 'z')
 		{
-			*[sc] = *[sc - 32];
+			src[sc] = src[sc - 32];
 			sc++;
 		}
 	}
+	return (src);
 }
