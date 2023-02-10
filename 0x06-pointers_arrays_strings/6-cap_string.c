@@ -12,6 +12,7 @@ char *cap_string(char *str)
 	int sc = 1;
 	int sps = 0;
 	char space[13] = {' ', '	', '\n', ',', ';', '.', '!', '?', '"', ')'};
+
 	space[10] = '(';
 	space[11] = '{';
 	space[12] = '}';
