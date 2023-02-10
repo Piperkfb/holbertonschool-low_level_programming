@@ -11,11 +11,11 @@ char *cap_string(char *str)
 {
 	int sc = 1;
 	int sps = 0;
-	char space[9]{' ', '	', '\n', ',', ';', '.', '!', '?', '"', ')'};
-	char space[10] = '(';
-	char space[11] = '{';
-	char space[12] = '}';
-	char space[13] = '\0';
+	char space[13] = {' ', '	', '\n', ',', ';', '.', '!', '?', '"', ')'};
+	space[10] = '(';
+	space[11] = '{';
+	space[12] = '}';
+	space[13] = '\0';
 
 	if (str[0] >= 'a' && str[0] <= 'z')
 	{
