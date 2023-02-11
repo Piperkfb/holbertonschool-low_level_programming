@@ -10,39 +10,20 @@
 char *leet(char *str)
 {
 	int sc = 0;
-
+	int sp = 0;
+	char lt[] = "aAeEoOtTlL";
+	char nm[] = "4433007711";
+	
 	while (str[sc] != '\0')
 	{
-			if (str[sc] == 'a' || str[sc] == 'A')
+		for (sp = 0; sp <= 9; sp++)
+		{
+			if (str[sc] == lt[sp])
 			{
-				str[sc] = '4';
-				sc++;
+				str[sc] = nm[sp];
 			}
-			else if (str[sc] == 'e' || str[sc] == 'E')
-			{
-				str[sc] = '3';
-				sc++;
-			}
-			else if (str[sc] == 'o' || str[sc] == 'O')
-			{
-				str[sc] = '0';
-				sc++;
-			}
-			else if (str[sc] == 't' || str[sc] == 'T')
-			{
-				str[sc] = '7';
-				sc++;
-			}
-			else if (str[sc] == 'l' || str[sc] == 'L')
-			{
-				str[sc] = '1';
-				sc++;
-			}
-			else
-			{
-				sc++;
-			}
-
+		}
+		sc++;
 	}
 	return (str);
 }
