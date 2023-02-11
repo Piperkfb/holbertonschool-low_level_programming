@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strbrk - Seaches a string for any set of bytes
+ * _strpbrk - Seaches a string for any set of bytes
  * @s: the string
  * @accept: The set of bytes
  *
@@ -13,7 +13,7 @@ char *_strpbrk(char *s, char *accept)
 	int sc = 0;
 	int ac;
 	char *p;
-	
+
 	while (s[sc] != '\0')
 	{
 		for (ac = 0; accept[ac] != '\0'; ac++)
