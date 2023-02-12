@@ -29,6 +29,10 @@ char *_strstr(char *haystack, char *needle)
 				sc++;
 				break;
 			}
+			else
+			{
+				sc++;
+			}
 		}
 		if (needle[nc] == '\0')
 		{
