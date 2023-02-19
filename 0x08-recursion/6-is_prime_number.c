@@ -7,7 +7,7 @@
  * @x: The incrementing checker
  * Return: 1 if prime, 0 otherwise
  */
-int _checker(n, x);
+int _checker(int n, int x);
 
 int is_prime_number(int n)
 {
@@ -25,13 +25,13 @@ int is_prime_number(int n)
  * @x: As says above
  * Return: You know
  */
-int _checker(n, x)
+int _checker(int n, int x)
 {
 	if (n < 2 || n % x == 0)
 	{	return (0);
 	}
 	else if (x > (n / 2))
-	{	reutrn (1);
+	{	return (1);
 	}
 	else
 		return (_checker((x + 1), n));
