@@ -4,13 +4,14 @@
 /**
  * _sqrt_recursion - Returns square root of a number
  * @n: The number
+ * @x: The counter
  * Return: The square root, if no natual sqrt- -1
  */
 int _findsqrt(int n, int x);
 
 int _sqrt_recursion(int n)
 {
-	return _findsqrt(n, 1);
+	return (_findsqrt(n, 1));
 }
 
 /**
@@ -22,7 +23,7 @@ int _sqrt_recursion(int n)
 int _findsqrt(int n, int x)
 {
 	int sqrt = (x * x);
-	
+
 	if (sqrt > n)
 	{	return (-1);
 	}
