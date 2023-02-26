@@ -4,10 +4,10 @@
 void *malloc_checked(unsigned int b)
 {
 	void *memp = malloc(b);
-	
+
 	if (memp == NULL)
 	{
-		exit(98);	
+		exit(98);
 	}
 
 	return (mem);
