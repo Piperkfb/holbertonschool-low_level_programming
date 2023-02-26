@@ -29,8 +29,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (sc = 0; s1[sc]; sc++)
 	{
-	       memp[len] = s1[sc];
-	       len++;
+		memp[len] = s1[sc];
+		len++;
 	}
 
 	for (sc = 0; s2[sc] && sc < n; sc++)
