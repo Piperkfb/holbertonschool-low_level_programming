@@ -17,7 +17,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *Watson;
 
 	if (name == NULL || age < 0 || owner == NULL)
-		return(NULL);
+		return (NULL);
 
 	Watson = malloc(sizeof(dog_t));
 	if (Watson == NULL)
@@ -71,5 +71,5 @@ char *_strcpy(char *s2, char *s1)
 	{	s2[sc] = s1[sc];
 	}
 	s2[sc] = '\0';
-	return (s1);
+	return (s2);
 }
