@@ -8,6 +8,17 @@
  * @owner: Owner of new dog
  * Return: Memory of new dog
  */
+/**
+ * _strcpy - Copies a string into another area
+ * @s1: The copy name
+ * @s2: location of copy
+ * Return: Pointer to copied string
+ */
+/**
+ * _strlen - captures the length of a string
+ * @s: the string
+ * Return: The length
+ */
 
 int _strlen(char *s);
 char *_strcpy(char *s1, char *s2);
