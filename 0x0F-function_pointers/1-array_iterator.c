@@ -1,4 +1,4 @@
-#include "function_pointer.h"
+#include "function_pointers.h"
 
 /**
  * array_iterator - Takes elements of an array and plugs them into the action function
@@ -12,7 +12,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	int sc = 0;
 	int x;
-	int count = 0;
+	size_t count = 0;
 
 	if (array == NULL || size <= 0 || action == NULL)
 		return;
