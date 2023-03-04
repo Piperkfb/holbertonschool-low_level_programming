@@ -20,14 +20,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (Watson == NULL)
 	{
 		free(Watson);
-		return(NULL);
+		return (NULL);
 	}
 
 	Watson->name = malloc(_strlen(name) + 1);
 	if (Watson->name == NULL)
 	{
 		free(Watson->name);
-		return(NULL);
+		return (NULL);
 	}
 	Watson->name = _strcpy(Watson->name, name);
 
@@ -37,21 +37,30 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (Watson->owner == NULL)
 	{
 		free(Watson->owner);
-		return(NULL);
+		return (NULL);
 	}
 	Watson->owner = _strcpy(Watson->owner, owner);
 	return (Watson);
 }
-
+/**
+ * _strlen - captures the length of a string
+ * @s: the string
+ * Return: The length
+ */
 int _strlen(char *s)
 {
 	int sc = 0;
-	
+
 	for (sc = 0; s[sc]; sc++)
 		;
-	return(sc);
+	return (sc);
 }
-
+/**
+ * _strcpy - Copies a string into another area
+ * @s1: The copy name
+ * @s2: location of copy
+ * Return: Pointer to copied string
+ */
 char *_strcpy(char *s2, char *s1)
 {
 	int sc = 0;
@@ -60,5 +69,5 @@ char *_strcpy(char *s2, char *s1)
 	{	s2[sc] = s1[sc];
 	}
 	s2[sc] = '\0';
-	return(s1);
+	return (s1);
 }
