@@ -52,7 +52,7 @@ int _strlen(char *s)
 	return(sc);
 }
 
-char *_strcpy(char *s1, char *s2)
+char *_strcpy(char *s2, char *s1)
 {
 	int sc = 0;
 
