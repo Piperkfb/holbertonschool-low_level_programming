@@ -12,20 +12,13 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int sc = 0;
-	int x;
-	size_t count = 0;
+	int sc = 0
 
 	if (array == NULL || size <= 0 || action == NULL)
 		return;
-	while (count <= size)
-	{
 
-		for (sc = 0; array[sc]; sc++)
-		{
-			x = array[sc];
-			action(x);
-			count++;
-		}
+	for (sc = 0; sc < size; sc++)
+	{
+		action(array[sc]);
 	}
 }
