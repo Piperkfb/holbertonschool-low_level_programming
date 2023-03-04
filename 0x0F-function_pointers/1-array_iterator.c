@@ -1,7 +1,9 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - Takes elements of an array and plugs them into the action function
+ * array_iterator - Takes elements of an array and plugs them into
+ * the action function
+ *
  * @array: The array
  * @size: The number of elements
  * @action: The function to plug into
