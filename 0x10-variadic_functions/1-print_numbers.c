@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - Prints a variatic amount of numbers along a seperator
- * @seperator: The character that seperates each number
+ * @separator: The character that seperates each number
  * @n: The number of elements
  * Return: void
  */
@@ -21,8 +21,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	for (cnt = 0; cnt < n; cnt++)
 	{
 		printf("%i", va_arg(list, int));
-			if (separator != NULL)
-		printf("%s", separator);
+		if (separator != NULL)
+			printf("%s", separator);
 	}
 	printf("\n");
 	va_end(list);
