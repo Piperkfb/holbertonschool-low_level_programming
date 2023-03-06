@@ -2,15 +2,17 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+void p_char(va_list list);
+void p_string(va_list list);
+void p_integer(va_list list);
+void p_float(va_list list);
+void print_all(const char * const format, ...);
+
 /**
  * print_all - A function that prints anything
  * @format: The format of argument
  * Return: void
  */
-void p_char(va_list list);
-void p_string(va_list list);
-void p_integer(va_list list);
-void p_float(va_list list);
 
 void print_all(const char * const format, ...)
 {
@@ -38,30 +40,30 @@ void print_all(const char * const format, ...)
 				printf("%s", s);
 				t[j].T_func(valist);
 				s = ", ";
-				break;					
+				break;
 			}
 			j++;
 		}
 		i++;
 	}
 	va_end(valist);
-	printf("\n");	
+	printf("\n");
 }
 /**
- *  * p_char - print char
- *   * @list:arg
- *    * Return: void
- *     */
+ * p_char - print char
+ * @list:arg
+ * Return: void
+ */
 
 void p_char(va_list list)
 {
 		printf("%c", va_arg(list, int));
 }
 /**
- *  * p_string - print string
- *   * @list:arg
- *    * Return: void
- *     */
+ * p_string - print string
+ * @list:arg
+ * Return: void
+ */
 
 void p_string(va_list list)
 {
@@ -73,20 +75,20 @@ void p_string(va_list list)
 		printf("%s", str);
 }
 /**
- *  * p_integer - print integer
- *   * @list:arg
- *    * Return: void
- *     */
+ * p_integer - print integer
+ * @list:arg
+ * Return: void
+ */
 
 void p_integer(va_list list)
 {
 		printf("%i", va_arg(list, int));
 }
 /**
- *  * p_float - print float
- *   * @list:arg
- *    * Return: void
- *     */
+ * p_float - print float
+ * @list:arg
+ * Return: void
+ */
 
 void p_float(va_list list)
 {
