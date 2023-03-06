@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
 {
 	int num1, num2;
 	char *symb;
-	int (*fun)(int, int);
 
 	if (argc != 4)
 	{
@@ -25,7 +24,7 @@ int main(int argc, char *argv[])
 	symb = argv[2];
 	num2 = atoi(argv[3]);
 
-	if (get_op_func(symb) == NULL || op[1] != '\0')
+	if (get_op_func(symb) == NULL || symb[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
