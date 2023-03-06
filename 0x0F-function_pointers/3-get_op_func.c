@@ -1,5 +1,5 @@
 #include "3-calc.h"
-#include <stdio.h>
+#include <string.h>
 
 /**
  * get_op_func - Finds correct function needed to pass
@@ -8,7 +8,7 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
-	op_t oper[] = {
+	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
@@ -16,12 +16,12 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	
-	int cnt = 0;
 
-	while (oper[cnt].op != s && oper[cnt].op != NULL)
+	int i = 0;
+
+	while (*(ops[i].op) != *s && ops[i].op != NULL)
 	{
-		cnt++;
+		i++;
 	}
-	return(oper[cnt].f);
+	return (ops[i].f);
 }

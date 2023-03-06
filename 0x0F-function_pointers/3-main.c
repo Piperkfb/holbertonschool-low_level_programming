@@ -24,11 +24,10 @@ int main(int argc, char *argv[])
 	num1 = atoi(argv[1]);
 	symb = argv[2];
 	num2 = atoi(argv[3]);
-	fun = get_op_func(argv[2]);
 
-	if (fun == NULL)
+	if (get_op_func(symb) == NULL || op[1] != '\0')
 	{
-		printf("Error2\n");
+		printf("Error\n");
 		exit(99);
 	}
 
@@ -39,6 +38,6 @@ int main(int argc, char *argv[])
 	}
 
 	printf("%d\n", get_op_func(symb)(num1, num2));
-	
+
 	return (0);
 }
