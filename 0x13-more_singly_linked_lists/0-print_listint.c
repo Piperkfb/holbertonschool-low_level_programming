@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_listint- prints all elements 
- * @h - the continuous list
+ * print_listint- prints all elements
+ * @h: the continuous list
  *
  * Return: number of elements
  */
