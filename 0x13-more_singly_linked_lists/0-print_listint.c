@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * print_listint- prints all elements 
@@ -11,9 +12,9 @@ size_t print_listint(const listint_t *h)
 {
 	int cnt = 0;
 
-	while (h->next != NULL)
+	while (h)
 	{
-		printf("%d", h->int);
+		printf("%d", h->n);
 		cnt++;
 		h = h->next;
 	}
