@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_bit - 
+ * set_bit - set vallue of a bit to 1 at index
  * @n: pointer to bit
  * @index: the position
  * Return: 1 success, -1 error
