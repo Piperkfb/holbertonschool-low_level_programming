@@ -8,7 +8,8 @@
 
 size_t print_dlistint_backward(const dlistint_t *h)
 {
-	int cnt, idx = 0;
+	int cnt = 0;
+	int idx = 0;
 
 	if (h == NULL)
 		return (0);
