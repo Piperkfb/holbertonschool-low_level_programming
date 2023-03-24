@@ -3,7 +3,7 @@
 /**
  * key_index - gives index of a key
  * @key: The key
- * @size:
+ * @size: The size
  * Return: The index
  */
 
