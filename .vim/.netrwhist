@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/root/holbertonschool-low_level_programming'
+let g:netrw_dirhist_5='/root/holbertonschool-low_level_programming/0x12-singly_linked_lists'
+let g:netrw_dirhist_4='/root/holbertonschool-low_level_programming/0x10-variadic_functions'
+let g:netrw_dirhist_3='/root/holbertonschool-low_level_programming/0x0A-dynamic_libraries'
+let g:netrw_dirhist_2='/root/holbertonschool-low_level_programming/0x0A-argc_argv'
+let g:netrw_dirhist_1='/root/holbertonschool-low_level_programming/0x04-more_functions_nested_loops'
