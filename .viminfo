@@ -17,10 +17,10 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1680545005,,"wq"
 :q
 |2,0,1680543366,,"q"
-:wq
-|2,0,1680542811,,"wq"
 :w
 |2,0,1680463536,,"w"
 :q!
@@ -90,36 +90,52 @@ $
 |3,0,36,0,1,0,1676059440,"}"
 
 # File marks:
-'0  2  0  ~/.git/MERGE_MSG
-|4,48,2,0,1680543366,"~/.git/MERGE_MSG"
-'1  2  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
-|4,49,2,0,1680542811,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
-'2  8  0  ~/.git/MERGE_MSG
-|4,50,8,0,1680539499,"~/.git/MERGE_MSG"
+'0  3  0  ~/holbertonschool-monty/README.md
+|4,48,3,0,1680545005,"~/holbertonschool-monty/README.md"
+'1  2  0  ~/.git/MERGE_MSG
+|4,49,2,0,1680543366,"~/.git/MERGE_MSG"
+'2  2  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,50,2,0,1680542811,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
 '3  8  0  ~/.git/MERGE_MSG
 |4,51,8,0,1680539499,"~/.git/MERGE_MSG"
-'4  176  0  ~/tester/stacksq/monty_running3.c
-|4,52,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
-'5  80  22  ~/tester/stacksq/monty_head.h
-|4,53,80,22,1680466336,"~/tester/stacksq/monty_head.h"
-'6  95  21  ~/tester/stacksq/monty_running.c
-|4,54,95,21,1680466217,"~/tester/stacksq/monty_running.c"
-'7  76  2  ~/tester/stacksq/monty_erroth.c
-|4,55,76,2,1680466184,"~/tester/stacksq/monty_erroth.c"
-'8  79  44  ~/tester/stacksq/monty_head.h
-|4,56,79,44,1680466141,"~/tester/stacksq/monty_head.h"
+'4  8  0  ~/.git/MERGE_MSG
+|4,52,8,0,1680539499,"~/.git/MERGE_MSG"
+'5  176  0  ~/tester/stacksq/monty_running3.c
+|4,53,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+'6  80  22  ~/tester/stacksq/monty_head.h
+|4,54,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+'7  95  21  ~/tester/stacksq/monty_running.c
+|4,55,95,21,1680466217,"~/tester/stacksq/monty_running.c"
+'8  76  2  ~/tester/stacksq/monty_erroth.c
+|4,56,76,2,1680466184,"~/tester/stacksq/monty_erroth.c"
 '9  79  44  ~/tester/stacksq/monty_head.h
 |4,57,79,44,1680466141,"~/tester/stacksq/monty_head.h"
 
 # Jumplist (newest first):
+-'  3  0  ~/holbertonschool-monty/README.md
+|4,39,3,0,1680545005,"~/holbertonschool-monty/README.md"
+-'  1  0  ~/holbertonschool-monty/README.md
+|4,39,1,0,1680544996,"~/holbertonschool-monty/README.md"
 -'  2  0  ~/.git/MERGE_MSG
 |4,39,2,0,1680543366,"~/.git/MERGE_MSG"
+-'  2  0  ~/.git/MERGE_MSG
+|4,39,2,0,1680543366,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1680543364,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
 |4,39,1,0,1680543364,"~/.git/MERGE_MSG"
 -'  2  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
 |4,39,2,0,1680542811,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
 -'  2  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
 |4,39,2,0,1680542811,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  2  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,2,0,1680542811,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  2  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,2,0,1680542811,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,1,0,1680542808,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,1,0,1680542808,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
 -'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
 |4,39,1,0,1680542808,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
 -'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
@@ -130,6 +146,16 @@ $
 |4,39,8,0,1680539499,"~/.git/MERGE_MSG"
 -'  8  0  ~/.git/MERGE_MSG
 |4,39,8,0,1680539499,"~/.git/MERGE_MSG"
+-'  8  0  ~/.git/MERGE_MSG
+|4,39,8,0,1680539499,"~/.git/MERGE_MSG"
+-'  8  0  ~/.git/MERGE_MSG
+|4,39,8,0,1680539499,"~/.git/MERGE_MSG"
+-'  8  0  ~/.git/MERGE_MSG
+|4,39,8,0,1680539499,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1680539478,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1680539478,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
 |4,39,1,0,1680539478,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
@@ -150,6 +176,38 @@ $
 |4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
 -'  176  0  ~/tester/stacksq/monty_running3.c
 |4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  176  0  ~/tester/stacksq/monty_running3.c
+|4,39,176,0,1680466410,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
+-'  14  0  ~/tester/stacksq/monty_running3.c
+|4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
 -'  14  0  ~/tester/stacksq/monty_running3.c
 |4,39,14,0,1680466345,"~/tester/stacksq/monty_running3.c"
 -'  14  0  ~/tester/stacksq/monty_running3.c
@@ -198,6 +256,38 @@ $
 |4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
 -'  80  22  ~/tester/stacksq/monty_head.h
 |4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
+-'  80  22  ~/tester/stacksq/monty_head.h
+|4,39,80,22,1680466336,"~/tester/stacksq/monty_head.h"
 -'  79  44  ~/tester/stacksq/monty_head.h
 |4,39,79,44,1680466240,"~/tester/stacksq/monty_head.h"
 -'  79  44  ~/tester/stacksq/monty_head.h
@@ -222,98 +312,15 @@ $
 |4,39,79,44,1680466240,"~/tester/stacksq/monty_head.h"
 -'  79  44  ~/tester/stacksq/monty_head.h
 |4,39,79,44,1680466240,"~/tester/stacksq/monty_head.h"
--'  79  44  ~/tester/stacksq/monty_head.h
-|4,39,79,44,1680466240,"~/tester/stacksq/monty_head.h"
--'  79  44  ~/tester/stacksq/monty_head.h
-|4,39,79,44,1680466240,"~/tester/stacksq/monty_head.h"
--'  79  44  ~/tester/stacksq/monty_head.h
-|4,39,79,44,1680466240,"~/tester/stacksq/monty_head.h"
--'  79  44  ~/tester/stacksq/monty_head.h
-|4,39,79,44,1680466240,"~/tester/stacksq/monty_head.h"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  95  21  ~/tester/stacksq/monty_running.c
-|4,39,95,21,1680466217,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
--'  24  12  ~/tester/stacksq/monty_running.c
-|4,39,24,12,1680466199,"~/tester/stacksq/monty_running.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/holbertonschool-monty/README.md
+	*	1680545004	0
+	"	3	0
+	^	3	0
+	.	2	7
+	+	2	7
 
 > ~/.git/MERGE_MSG
 	*	1680543365	0
@@ -2361,18 +2368,3 @@ $
 > ~/holbertonschool-low_level_programming/printing_test/holbertonschool-printf/main.
 	*	1678484338	0
 	"	1	0
-
-> ~/holbertonschool-low_level_programming/printing_test/holbertonschool-printf/main.c
-	*	1678484046	0
-	"	18	8
-	^	18	9
-	.	17	0
-	+	52	19
-	+	32	0
-	+	20	39
-	+	21	0
-	+	24	47
-	+	25	0
-	+	14	0
-	+	16	62
-	+	17	0
